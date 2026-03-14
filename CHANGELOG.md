@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.0.4](https://github.com/61418/boto3-refresh-session/compare/v10.0.3...v10.0.4) (2026-03-14)
+
+
+### Documentation
+
+* Updated email in metadata ([#143](https://github.com/61418/boto3-refresh-session/issues/143)) ([180fddc](https://github.com/61418/boto3-refresh-session/commit/180fddc00bc4b2ad628603fb7dee2a9348ac3d3d))
+
 ## [10.0.3](https://github.com/61418/boto3-refresh-session/compare/v10.0.2...v10.0.3) (2026-03-07)
 
 
