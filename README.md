@@ -30,6 +30,13 @@
     />
   </a>
 
+  <a href="https://github.com/61418/boto3-refresh-session/actions/workflows/codeql.yml">
+    <img 
+      src="https://img.shields.io/github/actions/workflow/status/61418/boto3-refresh-session/codeql.yml?logo=github&color=%237d8450&label=CodeQL&labelColor=%236d747e" 
+      alt="codeql"
+    />
+  </a>
+
   <a href="https://github.com/61418/boto3-refresh-session/commits/main">
     <img 
       src="https://img.shields.io/github/last-commit/61418/boto3-refresh-session?logo=github&color=%237d8450&label=Last%20Commit&labelColor=%236d747e" 
