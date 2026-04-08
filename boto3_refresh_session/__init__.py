@@ -28,5 +28,5 @@ __all__ += extras.__all__
 __title__ = "boto3-refresh-session"
 __author__ = "Mike Letts"
 __maintainer__ = "61418"
-__license__ = "MPL-2.0"
+__license__ = "Mozilla Public License 2.0 (MPL-2.0)"
 __email__ = "general@61418.io"
