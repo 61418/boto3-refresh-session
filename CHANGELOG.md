@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.0.5](https://github.com/61418/boto3-refresh-session/compare/v10.0.4...v10.0.5) (2026-04-08)
+
+
+### Bug Fixes
+
+* Clarifying __license__ in __init__ ([#147](https://github.com/61418/boto3-refresh-session/issues/147)) ([fe21005](https://github.com/61418/boto3-refresh-session/commit/fe2100515db161b80f4b9d6ae99ad327c7954f0d))
+
 ## [10.0.4](https://github.com/61418/boto3-refresh-session/compare/v10.0.3...v10.0.4) (2026-03-14)
 
 
