@@ -101,15 +101,17 @@ scenarios and edge cases where that is insufficient. Below are just a *few* exam
 
 boto3-refresh-session exists to fill those gaps (and others not listed) while maintaining full compatibility with boto3.
 
-Although there are other open source tools available which address automatic temporary AWS credential refresh, boto3-refresh-session is ergonomically designed to feel like an _extension_ of boto3 (with a few extra parameters) rather than a separate library with a completely unfamiliar API. Using boto3-refresh-session, you can initialize service clients, resources, collections, etc. from `RefreshableSession` exactly like you would in boto3. More, the available alternatives to boto3-refresh-session do not support the _breadth_ of features that boto3-refresh-session does, such as client caching, MFA token provider support, or IoT Core X.509 credential refresh, among others. Even if you don't need boto3-refresh-session's core feature (automatic temporary AWS credential refresh), the client caching feature may still be useful to you.
+Although there are other open source tools available which address automatic temporary AWS credential refresh, boto3-refresh-session is ergonomically designed to feel like an _extension_ of boto3 (with a few extra parameters) rather than a separate library with a completely unfamiliar API. Using boto3-refresh-session, you can initialize service clients, resources, collections, etc. from `RefreshableSession` exactly like you would in boto3. More, the available alternatives to boto3-refresh-session do not support the _breadth_ of features that boto3-refresh-session does, such as client caching, MFA token provider support, or IoT Core X.509 credential refresh, among others. Even if you don't need boto3-refresh-session's core feature (automatic temporary AWS credential refresh), the client caching feature may still be useful to you; however, in that case, you may want to use [boto3-client-cache](https://github.com/61418/boto3-client-cache) directly instead.
 
 ## Recognition and testimonials
 
-[Featured in TL;DR Sec.](https://tldrsec.com/p/tldr-sec-282)
+boto3-refresh-session influenced the creation of the `aws configure mfa-login` command and introduction of the `aws_session_token` parameter for the `aws configure` command in [AWS CLI (v2.30.3)](https://github.com/aws/aws-cli/blob/5bffffcc1bd0aa0e73bdcc1cfe432b37563a58bb/CHANGELOG.rst#L2081).
 
-[Featured in CloudSecList.](https://cloudseclist.com/issues/issue-290)
+boto3-refresh-session was [featured in TL;DR Sec.](https://tldrsec.com/p/tldr-sec-282)
 
-A testimonial from an engineer at Netflix:
+boto3-refresh-session was also [featured in CloudSecList.](https://cloudseclist.com/issues/issue-290)
+
+A testimonial from an engineer who uses boto3-refresh-session at Netflix:
 
 > _Most of my work is on tooling related to AWS security, so I'm pretty choosy about boto3 credentials-adjacent code. I often opt to just write this sort of thing myself so I at least know that I can reason about it. But I found boto3-refresh-session to be very clean and intuitive [...] We're using AWS Lambda to perform lots of operations across several regions in hundreds of accounts, over and over again, all day every day. And it turns out that there's a surprising amount of overhead to creating boto3 clients (mostly deserializing service definition json), so we can run MUCH more efficiently if we keep a cache of clients, all equipped with automatically refreshing sessions._
 
@@ -150,7 +152,7 @@ Refer to the [contributing guidelines](https://github.com/michaelthomasletts/bot
 
 The people listed below inspired features, adopted boto3-refresh-session early, provided critical feedback, and more. Thank you for all of your support, encouragement, and guidance which make this project possible. 
 
-- [Gavin Adams](https://github.com/gadams999)
 - [Patrick Sanders](https://github.com/patricksanders)
-- [Liam Wadman](https://github.com/liwadman)
+- [Gavin Adams](https://github.com/gadams999)
 - [Ben Kehoe](https://github.com/benkehoe)
+- [Liam Wadman](https://github.com/liwadman)
