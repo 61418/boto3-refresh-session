@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.0.6](https://github.com/61418/boto3-refresh-session/compare/v10.0.5...v10.0.6) (2026-04-13)
+
+
+### Documentation
+
+* Updating testimonials and recognition section of README ([#151](https://github.com/61418/boto3-refresh-session/issues/151)) ([fcd3681](https://github.com/61418/boto3-refresh-session/commit/fcd3681f5242dc2e164b0bb2398c7b88a792bb21))
+
 ## [10.0.5](https://github.com/61418/boto3-refresh-session/compare/v10.0.4...v10.0.5) (2026-04-08)
 
 
