@@ -86,7 +86,7 @@
 
 ## What is boto3-refresh-session?
 
-boto3-refresh-session is a simple Python package with a drop-in replacement for [boto3.Session](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/core/session.html#boto3.session.Session) named [RefreshableSession](https://61418.io/boto3-refresh-session/api/generated/boto3_refresh_session.session.RefreshableSession.html#boto3_refresh_session.session.RefreshableSession). It automatically refreshes temporary AWS credentials, [caches clients](https://61418.io/boto3-refresh-session/usage.html#client-caching), and [supports MFA token providers](https://61418.io/boto3-refresh-session/usage.html#mfa). It supports automatic temporary AWS security credential refresh for STS, IOT Core, and custom credential callables. And it is [thoroughly tested](https://github.com/michaelthomasletts/boto3-refresh-session/tree/main/tests), [regularly updated](https://github.com/michaelthomasletts/boto3-refresh-session/commits/main/), [comprehensively documentated](https://michaelthomasletts.github.io/boto3-refresh-session/index.html), and [published to PyPI](https://pypi.org/project/boto3-refresh-session/).
+boto3-refresh-session is a simple Python package with a drop-in replacement for [boto3.Session](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/core/session.html#boto3.session.Session) named [RefreshableSession](https://61418.io/boto3-refresh-session/api/generated/boto3_refresh_session.session.RefreshableSession.html#boto3_refresh_session.session.RefreshableSession). It automatically refreshes temporary AWS credentials, [caches clients](https://61418.io/boto3-refresh-session/usage.html#client-and-resource-caching), and [supports MFA token providers](https://61418.io/boto3-refresh-session/usage.html#mfa). It supports automatic temporary AWS security credential refresh for STS, IOT Core, and custom credential callables. And it is [thoroughly tested](https://github.com/61418/boto3-refresh-session/tree/main/tests), [regularly updated](https://github.com/61418/boto3-refresh-session/commits/main/), [comprehensively documentated](https://61418.io/boto3-refresh-session/), and [published to PyPI](https://pypi.org/project/boto3-refresh-session/).
 
 boto3-refresh-session was authored by [Mike Letts](https://github.com/michaelthomasletts) and is maintained by [61418](https://github.com/61418).
 
@@ -138,15 +138,15 @@ Refer to the [official API documentation](https://61418.io/boto3-refresh-session
 
 ## Versions
 
-Refer to the [changelog](https://github.com/michaelthomasletts/boto3-refresh-session/blob/main/CHANGELOG.md) for additional information on specific versions and releases.
+Refer to the [changelog](https://github.com/61418/boto3-refresh-session/blob/main/CHANGELOG.md) for additional information on specific versions and releases.
 
 ## License
 
-Beginning v7.0.0, `boto3-refresh-session` is licensed under [Mozilla Public License 2.0 (MPL-2.0)](https://github.com/michaelthomasletts/boto3-refresh-session/blob/main/LICENSE). Earlier versions remain licensed under the MIT License.
+Beginning v7.0.0, `boto3-refresh-session` is licensed under [Mozilla Public License 2.0 (MPL-2.0)](https://github.com/61418/boto3-refresh-session/blob/main/LICENSE). Earlier versions remain licensed under the MIT License.
 
 ## Contributing
 
-Refer to the [contributing guidelines](https://github.com/michaelthomasletts/boto3-refresh-session/blob/main/CONTRIBUTING.md) for additional information on contributing to boto3-refresh-session.
+Refer to the [contributing guidelines](https://github.com/61418/boto3-refresh-session/blob/main/CONTRIBUTING.md) for additional information on contributing to boto3-refresh-session.
 
 ## Special Thanks
 
