@@ -148,7 +148,7 @@ Beginning v7.0.0, `boto3-refresh-session` is licensed under [Mozilla Public Lice
 
 Refer to the [contributing guidelines](https://github.com/61418/boto3-refresh-session/blob/main/CONTRIBUTING.md) for additional information on contributing to boto3-refresh-session.
 
-## Special Thanks
+## Special thanks
 
 The people listed below inspired features, adopted boto3-refresh-session early, provided critical feedback, and more. Thank you for all of your support, encouragement, and guidance which make this project possible. 
 
