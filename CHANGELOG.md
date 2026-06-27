@@ -1,5 +1,13 @@
 # Changelog
 
+## [10.0.7](https://github.com/61418/boto3-refresh-session/compare/v10.0.6...v10.0.7) (2026-06-27)
+
+
+### Documentation
+
+* README and docs updates ([#175](https://github.com/61418/boto3-refresh-session/issues/175)) ([5b5386b](https://github.com/61418/boto3-refresh-session/commit/5b5386b475908b61d7035634ee40494dbf197d62))
+* Updating README and stale links ([#174](https://github.com/61418/boto3-refresh-session/issues/174)) ([c87cbd5](https://github.com/61418/boto3-refresh-session/commit/c87cbd5f05696b87a1e43c5d4bb2d82c51239ea9))
+
 ## [10.0.6](https://github.com/61418/boto3-refresh-session/compare/v10.0.5...v10.0.6) (2026-04-13)
 
 
